@@ -4,19 +4,38 @@
     <meta charset="utf-8">
   </head>
 
+  <style>
+    a{color:black;
+      text-decoration: none;}
+    h1{font-size: 45px;
+        text-align: center;
+        border-bottom: 1px solid black;
+        margin: 0px;
+        padding: 20px;}
+    ol{border-right: 1px solid black;
+      width: 200px;
+      margin: 0px;
+      padding-bottom: 1400px;
+      padding-top: 40px}
+    #grid{
+      display: grid;
+      grid-template-columns: 300px 1fr;}
+    </style>
+
+
   <body>
-
     <h1><a href="index.html">동백제</a></h1>
-
+<div id="grid">
+  <div>
     <ol>
       <li> <a href="1.html">경기 일정</a></li>
       <li> <a href="2.html">홍청 승부 현황</a></li>
       <li> <a href="3.html">오늘의 급식</a></li>
     </ol>
+  </div>
 
+    <div>
     <h2>경기일정</h2>
-
-
     <table border= "1">
       <tr>
         <td>시간</td>
@@ -37,8 +56,11 @@
         <td>박해적, 김남꽁, 박득춘</td>
       </tr>
     </table>
+        <br><img src="sports.jpg" width="50%">
+    </div>
+  </div>
 
-    <br><img src="sports.jpg" width="50%">
+
 
   </body>
 </html>
